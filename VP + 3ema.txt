@@ -15,7 +15,7 @@ study(title          = "Volume Profile",
 
 MM1 = ema(close,10)
 MM2 = ema(close,55)
-//MM3 = ema(close,100)
+MM3 = ema(close,100)
 
 //Alcista = (MM1 > MM2 and MM2 > MM3)
 //Bajista = (MM1 < MM2 and MM2 < MM3)
@@ -155,7 +155,7 @@ bgcolor( Bajista ? color.red : na )
 
 plot(MM1, color=#2196F3, linewidth=2)
 plot(MM2, color=#9d5f20, linewidth=2)
-//plot(MM3, color=#e9ff3b, linewidth=2)
+plot(MM3, color=#e9ff3b, linewidth=2)
 
 
    
